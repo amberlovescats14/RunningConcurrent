@@ -1,0 +1,25 @@
+{
+  "name": "RunningConcurrent",
+  "version": "1.0.0",
+  "description": "Running back and front end together",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amberlovescats14/RunningConcurrent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amberlovescats14/RunningConcurrent/issues"
+  },
+  "homepage": "https://github.com/amberlovescats14/RunningConcurrent#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1"
+  }
+}
