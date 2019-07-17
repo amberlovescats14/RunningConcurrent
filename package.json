@@ -4,15 +4,18 @@
   "description": "Running back and front end together",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amberlovescats14/RunningConcurrent.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Amber Jones",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/amberlovescats14/RunningConcurrent/issues"
@@ -21,5 +24,8 @@
   "dependencies": {
     "concurrently": "^4.1.1",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
