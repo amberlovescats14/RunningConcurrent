@@ -23,7 +23,7 @@
   "homepage": "https://github.com/amberlovescats14/RunningConcurrent#readme",
   "dependencies": {
     "concurrently": "^4.1.1",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
